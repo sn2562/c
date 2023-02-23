@@ -1,0 +1,4 @@
+- tsvでデータを記述 -> tableにconvert
+	- https://wtools.io/convert-tsv-to-html-table
+- インラインコード<code> やコードスニペット<pre>も使えるが、cardからはみ出るので使わない
+	- https://getbootstrap.jp/docs/5.0/content/reboot/#inline-code

@@ -1,0 +1,141 @@
+●	PureRef
+Alignbottom/left/right/top	⌘↓/⌘←/⌘→/⌘↑
+Alwaysonbottom/top	⇧⌘B/⇧⌘A
+Arrangeoptimal	⌘P
+Distributehorizontal	⌥⇧⌘↑
+Distributevertical	⌥⇧⌘↓
+Exportscene	⌘E
+Increasemasteropacity	⌘+/⌘=
+Maximize	⌘F
+Normalizeheight	⌥⌘←
+Normalizescale	⌥⌘↓
+Normalizesize	⌥⌘↑
+Normalizewidth	⌥⌘→
+Note	⌘N
+Optimizecanvas	⌘O
+Resetcropping	⇧⌘C
+Flip	LeftMB+⌥⇧
+Flipimagehorizontally	⌥⇧H
+●	Photoshop
+レイヤーコンテンツの選択	⌘+レイヤーサムネイル
+●	HTML Color Code
+色	名称	カラーコード
+<img src="http://via.placeholder.com/16/1f77b4/FFFFFF/?text=%20">	tab:blue	#1f77b4
+<img src="http://via.placeholder.com/16/ff7f0e/FFFFFF/?text=%20">	tab:orange	#ff7f0e
+<img src="http://via.placeholder.com/16/2ca02c/FFFFFF/?text=%20">	tab:green	#2ca02c
+<img src="http://via.placeholder.com/16/d62728/FFFFFF/?text=%20">	tab:red	#d62728
+<img src="http://via.placeholder.com/16/9467bd/FFFFFF/?text=%20">	tab:purple	#9467bd
+<img src="http://via.placeholder.com/16/8c564b/FFFFFF/?text=%20">	tab:brown	#8c564b
+<img src="http://via.placeholder.com/16/e377c2/FFFFFF/?text=%20">	tab:pink	#e377c2
+<img src="http://via.placeholder.com/16/7f7f7f/FFFFFF/?text=%20">	tab:gray	#7f7f7f
+<img src="http://via.placeholder.com/16/bcbd22/FFFFFF/?text=%20">	tab:olive	#bcbd22
+<img src="http://via.placeholder.com/16/17becf/FFFFFF/?text=%20">	tab:cyan	#17becf
+●	git emoji
+emoji	text
+✨	:sparkles:
+🔥	:fire:
+🐛	:bug:
+🩹	:adhesive_bandage:
+🚧	:construction:
+🎉	:tada:
+♻️	:recycle:
+🚑️	:ambulance:
+🚨	:rotating_light:
+🔧	:wrench:
+📈	:chart_with_upwards_trend:
+🗑️	:wastebasket:
+⚠️	:warning:
+📗	:green_book:
+●	TRPG
+STR	-	description
+03-04	15-20	箸より重いものが持てない
+05-06		貧弱
+07-08		運動嫌い
+09-12	50	普通
+13-14		運動好き
+15-16	75-80	アスリート
+17-18	85-90	見てわかるマッチョ
+CON	description
+03~04	一日の大半寝てる
+05~06	病弱
+07~08	すぐへばる
+09~12	普通
+13~14	丈夫
+15~16	病気したことない
+17~18	不眠不休で働けます
+POW	description
+03	精神を病んでいる
+04	過去に大きなトラウマがある
+05~06	すぐパニックになる
+07~08	打たれ弱い
+09~12	普通
+13~14	打たれ強い
+15~16	強靭な精神の持ち主
+17	その筋の修業をしている人
+18	聖人
+DEX	100m走	手先の器用さ
+03	20.5	触れるもの皆傷付ける
+04	19.7	
+05	19	料理屋片付けが苦手
+06	18.3	
+07	17.6	美術や技術が苦手
+08	16.9	
+09	16.2	普通
+10	15.5	
+11	14.8	
+12	14.1	
+13	13.4	美術や技術が得意
+14	12.7	
+15	12	技術職につける
+16	11.3	
+17	10.6	ゴッドハンド
+18	10	
+APP	description
+03~04	目を背けられる
+05~06	ブス
+07~08	チョイブス
+09~12	普通
+13~14	チョイモテ
+15~16	同性にも好かれる
+17~18	誰もが振り返る
+SIZ	description
+03	120～125
+04	125～130
+05	130～135
+06	135～140
+07	140～145
+08	145～150
+09	150～155
+10	155～160
+11	160～165
+12	165～170
+13	170～175
+14	175～180
+15	180～185
+16	185～190
+17	190～195
+18	195～200
+INT	description
+08~09	物覚えが悪い
+10~11	頭が固い
+12~13	普通
+14~15	柔軟な発想ができる
+16~17	キレ者
+18	アインシュタイン
+EDU	description
+06	中１
+07	中２
+08	中３
+09	高1／中卒10年以内
+10	高2／中卒20年〃
+11	高3／中卒30年〃
+12	大1／高卒10年〃
+13	大2／高卒20年〃
+14	大3／高卒30年〃
+15	大4／高卒40年〃
+16	院1／大卒10年〃
+17	院2／大卒20年〃
+18	院3／大卒30年〃
+19	院4／大卒40年〃
+20	院5／院卒10年〃
+21	院6／院卒20年〃

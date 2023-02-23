@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ちーとしーと</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- masonry -->
+  <link rel="canonical" href="https://getbootstrap.jp/docs/5.0/exampl=
+es/masonry/">
+  <script>
+  const md = function(html) {
+    const div = document.createElement("div")
+    div.innerHTML = marked(html)
+    document.body.appendChild(div)
+  }
+  </script>
+</head>
+
+<body>
+  <main class="container py-5">
+    <h1>ちーとしーと!</h1>
+    <p>bbbbbb</p>
+    <hr class="my-5">
+    <!-- 
+    template ここから
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-header"> **タイトルは書き換える** </div>
+          <div class="card-body">
+            <table class="table table-striped">
+              **ここにtsvをコンバートした結果を含める**
+            </table>
+          </div>
+        </div>
+      </div>
+
+    template ここまで
+    -->
+    <div class="row" data-masonry='{"percentPosition": true }'>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-header">TRPG</div>
+          <div class="card-body">
+            <table class="table table-striped">
+              <thead class="table-secondary">
+                <tr>
+                  <td>STR</td>
+                  <td>-</td>
+                  <td>description</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>03-04</td>
+                <td>15-20</td>
+                <td>箸より重いものが持てない</td>
+              </tr>
+              <tr>
+                <td>05-06</td>
+                <td></td>
+                <td>貧弱</td>
+              </tr>
+              <tr>
+                <td>07-08</td>
+                <td></td>
+                <td>運動嫌い</td>
+              </tr>
+              <tr>
+                <td>09-12</td>
+                <td>50</td>
+                <td>普通</td>
+              </tr>
+              <tr>
+                <td>13-14</td>
+                <td></td>
+                <td>運動好き</td>
+              </tr>
+              <tr>
+                <td>15-16</td>
+                <td>75-80</td>
+                <td>アスリート</td>
+              </tr>
+              <tr>
+                <td>17-18</td>
+                <td>85-90</td>
+                <td>見てわかるマッチョ</td>
+              </tr>
+              <thead class="table-secondary">
+                <tr>
+                  <td>CON</td>
+                  <td>description</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>03~04</td>
+                <td>一日の大半寝てる</td>
+              </tr>
+              <tr>
+                <td>05~06</td>
+                <td>病弱</td>
+              </tr>
+              <tr>
+                <td>07~08</td>
+                <td>すぐへばる</td>
+              </tr>
+              <tr>
+                <td>09~12</td>
+                <td>普通</td>
+              </tr>
+              <tr>
+                <td>13~14</td>
+                <td>丈夫</td>
+              </tr>
+              <tr>
+                <td>15~16</td>
+                <td>病気したことない</td>
+              </tr>
+              <tr>
+                <td>17~18</td>
+                <td>不眠不休で働けます</td>
+              </tr>
+              <thead class="table-secondary">
+                <tr>
+                  <td>POW</td>
+                  <td>description</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>03</td>
+                <td>精神を病んでいる</td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>過去に大きなトラウマがある</td>
+              </tr>
+              <tr>
+                <td>05~06</td>
+                <td>すぐパニックになる</td>
+              </tr>
+              <tr>
+                <td>07~08</td>
+                <td>打たれ弱い</td>
+              </tr>
+              <tr>
+                <td>09~12</td>
+                <td>普通</td>
+              </tr>
+              <tr>
+                <td>13~14</td>
+                <td>打たれ強い</td>
+              </tr>
+              <tr>
+                <td>15~16</td>
+                <td>強靭な精神の持ち主</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>その筋の修業をしている人</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>聖人</td>
+              </tr>
+              <thead class="table-secondary">
+                <tr>
+                  <td>DEX</td>
+                  <td>100m走</td>
+                  <td>手先の器用さ</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>03</td>
+                <td>20.5</td>
+                <td>触れるもの皆傷付ける</td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>19.7</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>19</td>
+                <td>料理屋片付けが苦手</td>
+              </tr>
+              <tr>
+                <td>06</td>
+                <td>18.3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>17.6</td>
+                <td>美術や技術が苦手</td>
+              </tr>
+              <tr>
+                <td>08</td>
+                <td>16.9</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>09</td>
+                <td>16.2</td>
+                <td>普通</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>15.5</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>14.8</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>14.1</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>13.4</td>
+                <td>美術や技術が得意</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>12.7</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>12</td>
+                <td>技術職につける</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>11.3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>10.6</td>
+                <td>ゴッドハンド</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>10</td>
+                <td></td>
+              </tr>
+              <thead class="table-secondary">
+                <tr>
+                  <td>APP</td>
+                  <td>description</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>03~04</td>
+                <td>目を背けられる</td>
+              </tr>
+              <tr>
+                <td>05~06</td>
+                <td>ブス</td>
+              </tr>
+              <tr>
+                <td>07~08</td>
+                <td>チョイブス</td>
+              </tr>
+              <tr>
+                <td>09~12</td>
+                <td>普通</td>
+              </tr>
+              <tr>
+                <td>13~14</td>
+                <td>チョイモテ</td>
+              </tr>
+              <tr>
+                <td>15~16</td>
+                <td>同性にも好かれる</td>
+              </tr>
+              <tr>
+                <td>17~18</td>
+                <td>誰もが振り返る</td>
+              </tr>
+              <thead class="table-secondary">
+                <tr>
+                  <td>SIZ</td>
+                  <td>description</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>03</td>
+                <td>120～125</td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>125～130</td>
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>130～135</td>
+              </tr>
+              <tr>
+                <td>06</td>
+                <td>135～140</td>
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>140～145</td>
+              </tr>
+              <tr>
+                <td>08</td>
+                <td>145～150</td>
+              </tr>
+              <tr>
+                <td>09</td>
+                <td>150～155</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>155～160</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>160～165</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>165～170</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>170～175</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>175～180</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>180～185</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>185～190</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>190～195</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>195～200</td>
+              </tr>
+              <thead class="table-secondary">
+                <tr>
+                  <td>INT</td>
+                  <td>description</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>08~09</td>
+                <td>物覚えが悪い</td>
+              </tr>
+              <tr>
+                <td>10~11</td>
+                <td>頭が固い</td>
+              </tr>
+              <tr>
+                <td>12~13</td>
+                <td>普通</td>
+              </tr>
+              <tr>
+                <td>14~15</td>
+                <td>柔軟な発想ができる</td>
+              </tr>
+              <tr>
+                <td>16~17</td>
+                <td>キレ者</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>アインシュタイン</td>
+              </tr>
+              <thead class="table-secondary">
+                <tr>
+                  <td>EDU</td>
+                  <td>description</td>
+                </tr>
+              </thead>
+              <tr>
+                <td>06</td>
+                <td>中１</td>
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>中２</td>
+              </tr>
+              <tr>
+                <td>08</td>
+                <td>中３</td>
+              </tr>
+              <tr>
+                <td>09</td>
+                <td>高1／中卒10年以内</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>高2／中卒20年〃</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>高3／中卒30年〃</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>大1／高卒10年〃</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>大2／高卒20年〃</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>大3／高卒30年〃</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>大4／高卒40年〃</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>院1／大卒10年〃</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>院2／大卒20年〃</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>院3／大卒30年〃</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>院4／大卒40年〃</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>院5／院卒10年〃</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>院6／院卒20年〃</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-header">PureRef</div>
+          <div class="card-body">
+            <!-- 
+            <h5 class="card-title">たいとる</h5>
+            <p class="card-text">もじ</p>
+             -->
+            <table class="table table-striped">
+              <tbody>
+                <!-- <thead>
+                  <tr>
+                    <th colspan="2" scope="col">PureRef</th>
+                  </tr>
+                </thead> -->
+                <tr>
+                  <td>Align bottom/left/right/top</td>
+                  <td>⌘↓/⌘←/⌘→/⌘↑</td>
+                </tr>
+                <tr>
+                  <td>Always on bottom/top</td>
+                  <td>⇧⌘B/⇧⌘A</td>
+                </tr>
+                <tr>
+                  <td>Arrange optimal</td>
+                  <td>⌘P</td>
+                </tr>
+                <tr>
+                  <td>Distribute horizontal</td>
+                  <td>⌥⇧⌘↑</td>
+                </tr>
+                <tr>
+                  <td>Distribute vertical</td>
+                  <td>⌥⇧⌘↓</td>
+                </tr>
+                <tr>
+                  <td>Export scene</td>
+                  <td>⌘E</td>
+                </tr>
+                <tr>
+                  <td>Increase master opacity</td>
+                  <td>⌘+/⌘=</td>
+                </tr>
+                <tr>
+                  <td>Maximize</td>
+                  <td>⌘F</td>
+                </tr>
+                <tr>
+                  <td>Normalize height</td>
+                  <td>⌥⌘←</td>
+                </tr>
+                <tr>
+                  <td>Normalize scale</td>
+                  <td>⌥⌘↓</td>
+                </tr>
+                <tr>
+                  <td>Normalize size</td>
+                  <td>⌥⌘↑</td>
+                </tr>
+                <tr>
+                  <td>Normalize width</td>
+                  <td>⌥⌘→</td>
+                </tr>
+                <tr>
+                  <td>Note</td>
+                  <td>⌘N</td>
+                </tr>
+                <tr>
+                  <td>Optimize canvas</td>
+                  <td>⌘O</td>
+                </tr>
+                <tr>
+                  <td>Reset cropping</td>
+                  <td>⇧⌘C</td>
+                </tr>
+                <tr>
+                  <td>Flip</td>
+                  <td>Left MB + ⌥⇧</td>
+                </tr>
+                <tr>
+                  <td>Flip image horizontally</td>
+                  <td>⌥⇧H</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <td>色</td>
+                  <td>名称</td>
+                  <td>カラーコード</td>
+                </tr>
+              </thead>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/1f77b4/FFFFFF/?text=%20"></td>
+                <td>tab:blue</td>
+                <td>#1f77b4</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/ff7f0e/FFFFFF/?text=%20"></td>
+                <td>tab:orange</td>
+                <td>#ff7f0e</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/2ca02c/FFFFFF/?text=%20"></td>
+                <td>tab:green</td>
+                <td>#2ca02c</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/d62728/FFFFFF/?text=%20"></td>
+                <td>tab:red</td>
+                <td>#d62728</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/9467bd/FFFFFF/?text=%20"></td>
+                <td>tab:purple</td>
+                <td>#9467bd</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/8c564b/FFFFFF/?text=%20"></td>
+                <td>tab:brown</td>
+                <td>#8c564b</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/e377c2/FFFFFF/?text=%20"></td>
+                <td>tab:pink</td>
+                <td>#e377c2</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/7f7f7f/FFFFFF/?text=%20"></td>
+                <td>tab:gray</td>
+                <td>#7f7f7f</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/bcbd22/FFFFFF/?text=%20"></td>
+                <td>tab:olive</td>
+                <td>#bcbd22</td>
+              </tr>
+              <tr>
+                <td><img src="http://via.placeholder.com/16/17becf/FFFFFF/?text=%20"></td>
+                <td>tab:cyan</td>
+                <td>#17becf</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <!-- <div class="card-header">git emoji</div> -->
+          <div class="card-body">
+            <table class="table table-striped">
+              <tr>
+                <td>✨</td>
+                <td>:sparkles:</td>
+              </tr>
+              <tr>
+                <td>🔥</td>
+                <td>:fire:</td>
+              </tr>
+              <tr>
+                <td>🐛</td>
+                <td>:bug:</td>
+              </tr>
+              <tr>
+                <td>🩹</td>
+                <td>:adhesive_bandage:</td>
+              </tr>
+              <tr>
+                <td>🚧</td>
+                <td>:construction:</td>
+              </tr>
+              <tr>
+                <td>🎉</td>
+                <td>:tada:</td>
+              </tr>
+              <tr>
+                <td>♻️</td>
+                <td>:recycle:</td>
+              </tr>
+              <tr>
+                <td>🚑️</td>
+                <td>:ambulance:</td>
+              </tr>
+              <tr>
+                <td>🚨</td>
+                <td>:rotating_light:</td>
+              </tr>
+              <tr>
+                <td>🔧</td>
+                <td>:wrench:</td>
+              </tr>
+              <tr>
+                <td>📈</td>
+                <td>:chart_with_upwards_trend:</td>
+              </tr>
+              <tr>
+                <td>🗑️</td>
+                <td>:wastebasket:</td>
+              </tr>
+              <tr>
+                <td>⚠️</td>
+                <td>:warning:</td>
+              </tr>
+              <tr>
+                <td>📗</td>
+                <td>:green_book:</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-header"> **タイトルは書き換える** </div>
+          <div class="card-body">
+            <table class="table table-striped">
+              **ここにtsvをコンバートした結果を含める**
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-header">Header</div>
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card bg-primary text-white text-center p-3">
+          <figure class="mb-0">
+            <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0 text-white">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has a regular title and short paragraph of text below it.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <svg class="bd-placeholder-img card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Card image</text>
+          </svg>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card p-3 text-end">
+          <figure class="mb-0">
+            <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0 text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+  <div class="card-deck">
+</body>
+
+</html>
